@@ -1,0 +1,344 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "research-purpose-comparison",
+      "withdrawal-impact-draft",
+      "operations-handoff-draft",
+      "distribution-exception-draft",
+      "recall-drill-communication-draft",
+      "method-documentation-gap-check",
+      "delay-escalation-draft"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 10 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "research-purpose-comparison",
+        "title": "Research purpose comparison",
+        "originalPath": "/features/research-purpose-comparison"
+      },
+      {
+        "id": "withdrawal-impact-draft",
+        "title": "Withdrawal impact draft",
+        "originalPath": "/features/withdrawal-impact-draft"
+      },
+      {
+        "id": "operations-handoff-draft",
+        "title": "Operations handoff draft",
+        "originalPath": "/features/operations-handoff-draft"
+      },
+      {
+        "id": "distribution-exception-draft",
+        "title": "Distribution exception draft",
+        "originalPath": "/features/distribution-exception-draft"
+      },
+      {
+        "id": "recall-drill-communication-draft",
+        "title": "Recall drill communication draft",
+        "originalPath": "/features/recall-drill-communication-draft"
+      },
+      {
+        "id": "method-documentation-gap-check",
+        "title": "Method documentation gap check",
+        "originalPath": "/features/method-documentation-gap-check"
+      },
+      {
+        "id": "delay-escalation-draft",
+        "title": "Delay escalation draft",
+        "originalPath": "/features/delay-escalation-draft"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "consent-restriction-extraction",
+      "evidence-completeness-review",
+      "processing-evidence-summary",
+      "container-evidence-summary",
+      "consent-record-extraction",
+      "eligibility-evidence-gaps",
+      "eligibility"
+    ],
+    "ai": true,
+    "representativeId": "consent-restriction-extraction",
+    "description": "One assistant for 7 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "consent-restriction-extraction",
+        "title": "Consent restriction extraction",
+        "originalPath": "/features/consent-restriction-extraction"
+      },
+      {
+        "id": "evidence-completeness-review",
+        "title": "Evidence completeness review",
+        "originalPath": "/features/evidence-completeness-review"
+      },
+      {
+        "id": "processing-evidence-summary",
+        "title": "Processing evidence summary",
+        "originalPath": "/features/processing-evidence-summary"
+      },
+      {
+        "id": "container-evidence-summary",
+        "title": "Container evidence summary",
+        "originalPath": "/features/container-evidence-summary"
+      },
+      {
+        "id": "consent-record-extraction",
+        "title": "Consent record extraction",
+        "originalPath": "/features/consent-record-extraction"
+      },
+      {
+        "id": "eligibility-evidence-gaps",
+        "title": "Eligibility evidence gaps",
+        "originalPath": "/features/eligibility-evidence-gaps"
+      },
+      {
+        "id": "eligibility",
+        "title": "Eligibility",
+        "originalPath": "/features/eligibility"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "access-packet-completeness",
+      "storage-discrepancy-summary",
+      "material-transfer-agreement-brief",
+      "donor-packet-completeness",
+      "pool-traceability-review",
+      "technical-review",
+      "custody-completeness-review",
+      "examination-request-summary",
+      "disclosure-packet-index",
+      "container",
+      "shipment-container",
+      "authorized-logistics-brief",
+      "transport-conflict-review",
+      "handoff-chronology",
+      "case-closeout-narrative",
+      "quarantine-review",
+      "processing-packet-comparison",
+      "quarantine-review-preparation",
+      "distribution-traceability-review",
+      "adverse-event-chronology",
+      "expiration",
+      "reengagement"
+    ],
+    "ai": true,
+    "representativeId": "access-packet-completeness",
+    "description": "One assistant for 22 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "access-packet-completeness",
+        "title": "Access packet completeness",
+        "originalPath": "/features/access-packet-completeness"
+      },
+      {
+        "id": "storage-discrepancy-summary",
+        "title": "Storage discrepancy summary",
+        "originalPath": "/features/storage-discrepancy-summary"
+      },
+      {
+        "id": "material-transfer-agreement-brief",
+        "title": "Material transfer agreement brief",
+        "originalPath": "/features/material-transfer-agreement-brief"
+      },
+      {
+        "id": "donor-packet-completeness",
+        "title": "Donor packet completeness",
+        "originalPath": "/features/donor-packet-completeness"
+      },
+      {
+        "id": "pool-traceability-review",
+        "title": "Pool traceability review",
+        "originalPath": "/features/pool-traceability-review"
+      },
+      {
+        "id": "technical-review",
+        "title": "Technical Review",
+        "originalPath": "/features/technical-review"
+      },
+      {
+        "id": "custody-completeness-review",
+        "title": "Custody completeness review",
+        "originalPath": "/features/custody-completeness-review"
+      },
+      {
+        "id": "examination-request-summary",
+        "title": "Examination request summary",
+        "originalPath": "/features/examination-request-summary"
+      },
+      {
+        "id": "disclosure-packet-index",
+        "title": "Disclosure packet index",
+        "originalPath": "/features/disclosure-packet-index"
+      },
+      {
+        "id": "container",
+        "title": "Container",
+        "originalPath": "/features/container"
+      },
+      {
+        "id": "shipment-container",
+        "title": "Shipment Container",
+        "originalPath": "/features/shipment-container"
+      },
+      {
+        "id": "authorized-logistics-brief",
+        "title": "Authorized logistics brief",
+        "originalPath": "/features/authorized-logistics-brief"
+      },
+      {
+        "id": "transport-conflict-review",
+        "title": "Transport conflict review",
+        "originalPath": "/features/transport-conflict-review"
+      },
+      {
+        "id": "handoff-chronology",
+        "title": "Handoff chronology",
+        "originalPath": "/features/handoff-chronology"
+      },
+      {
+        "id": "case-closeout-narrative",
+        "title": "Case closeout narrative",
+        "originalPath": "/features/case-closeout-narrative"
+      },
+      {
+        "id": "quarantine-review",
+        "title": "Quarantine Review",
+        "originalPath": "/features/quarantine-review"
+      },
+      {
+        "id": "processing-packet-comparison",
+        "title": "Processing packet comparison",
+        "originalPath": "/features/processing-packet-comparison"
+      },
+      {
+        "id": "quarantine-review-preparation",
+        "title": "Quarantine review preparation",
+        "originalPath": "/features/quarantine-review-preparation"
+      },
+      {
+        "id": "distribution-traceability-review",
+        "title": "Distribution traceability review",
+        "originalPath": "/features/distribution-traceability-review"
+      },
+      {
+        "id": "adverse-event-chronology",
+        "title": "Adverse event chronology",
+        "originalPath": "/features/adverse-event-chronology"
+      },
+      {
+        "id": "expiration",
+        "title": "Expiration",
+        "originalPath": "/features/expiration"
+      },
+      {
+        "id": "reengagement",
+        "title": "Reengagement",
+        "originalPath": "/features/reengagement"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "donation-intake-reconciliation"
+    ],
+    "ai": true,
+    "representativeId": "donation-intake-reconciliation",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "donation-intake-reconciliation",
+        "title": "Donation intake reconciliation",
+        "originalPath": "/features/donation-intake-reconciliation"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "analyst-narrative-organization",
+      "forecast"
+    ],
+    "ai": true,
+    "representativeId": "analyst-narrative-organization",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "analyst-narrative-organization",
+        "title": "Analyst narrative organization",
+        "originalPath": "/features/analyst-narrative-organization"
+      },
+      {
+        "id": "forecast",
+        "title": "Forecast",
+        "originalPath": "/features/forecast"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "technical-review-response-draft",
+      "campaign"
+    ],
+    "ai": true,
+    "representativeId": "technical-review-response-draft",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "technical-review-response-draft",
+        "title": "Technical review response draft",
+        "originalPath": "/features/technical-review-response-draft"
+      },
+      {
+        "id": "campaign",
+        "title": "Campaign",
+        "originalPath": "/features/campaign"
+      }
+    ]
+  }
+]

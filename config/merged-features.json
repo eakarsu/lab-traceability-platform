@@ -1,0 +1,6003 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "ai-sterile-processing-instrument-traceability",
+        "path": "reports",
+        "source": "/Volumes/external/projects/ai-sterile-processing-instrument-traceability/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Domain Analytics"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "ai-sterile-processing-instrument-traceability",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-sterile-processing-instrument-traceability/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "ai-sterile-processing-instrument-traceability",
+        "path": "integrations",
+        "source": "/Volumes/external/projects/ai-sterile-processing-instrument-traceability/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Source Systems"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "biobank-collection",
+    "title": "Biobank Collection",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize biobank collection and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "collectionCode",
+        "label": "Collection code",
+        "type": "text"
+      },
+      {
+        "name": "institution",
+        "label": "Institution",
+        "type": "text"
+      },
+      {
+        "name": "custodian",
+        "label": "Custodian",
+        "type": "text"
+      },
+      {
+        "name": "protocolNumber",
+        "label": "Protocol number",
+        "type": "text"
+      },
+      {
+        "name": "reviewAt",
+        "label": "Review at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "BiobankCollection",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Biobank Collection"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/biobank-collection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "research-donor",
+    "title": "Research Donor",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize research donor and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "participantCode",
+        "label": "Participant code",
+        "type": "text"
+      },
+      {
+        "name": "consentAt",
+        "label": "Consent at",
+        "type": "date"
+      },
+      {
+        "name": "restrictions",
+        "label": "Restrictions",
+        "type": "text"
+      },
+      {
+        "name": "withdrawalAt",
+        "label": "Withdrawal at",
+        "type": "date"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "ResearchDonor",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Research Donor"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/research-donor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "consent-version",
+    "title": "Consent Version",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize consent version and prepare the next review.",
+    "fields": [
+      {
+        "name": "version",
+        "label": "Version",
+        "type": "text"
+      },
+      {
+        "name": "effectiveAt",
+        "label": "Effective at",
+        "type": "date"
+      },
+      {
+        "name": "permittedUses",
+        "label": "Permitted uses",
+        "type": "text"
+      },
+      {
+        "name": "prohibitedUses",
+        "label": "Prohibited uses",
+        "type": "text"
+      },
+      {
+        "name": "sourceReference",
+        "label": "Source reference",
+        "type": "text"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "ConsentVersion",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Consent Version"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/consent-version",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "specimen",
+    "title": "Specimen",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize specimen and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "researchDonorId",
+        "label": "Research donor id",
+        "type": "text"
+      },
+      {
+        "name": "specimenCode",
+        "label": "Specimen code",
+        "type": "text"
+      },
+      {
+        "name": "specimenType",
+        "label": "Specimen type",
+        "type": "text"
+      },
+      {
+        "name": "collectedAt",
+        "label": "Collected at",
+        "type": "date"
+      },
+      {
+        "name": "volumeUl",
+        "label": "Volume ul",
+        "type": "number"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "Specimen",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Specimen"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/specimen",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "freezer-location",
+    "title": "Freezer Location",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize freezer location and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "freezer",
+        "label": "Freezer",
+        "type": "text"
+      },
+      {
+        "name": "rack",
+        "label": "Rack",
+        "type": "text"
+      },
+      {
+        "name": "box",
+        "label": "Box",
+        "type": "text"
+      },
+      {
+        "name": "slot",
+        "label": "Slot",
+        "type": "text"
+      },
+      {
+        "name": "capacity",
+        "label": "Capacity",
+        "type": "number"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "FreezerLocation",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Freezer Location"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/freezer-location",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "specimen-placement",
+    "title": "Specimen Placement",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize specimen placement and prepare the next review.",
+    "fields": [
+      {
+        "name": "specimenId",
+        "label": "Specimen id",
+        "type": "text"
+      },
+      {
+        "name": "freezerLocationId",
+        "label": "Freezer location id",
+        "type": "text"
+      },
+      {
+        "name": "placedAt",
+        "label": "Placed at",
+        "type": "date"
+      },
+      {
+        "name": "quantity",
+        "label": "Quantity",
+        "type": "number"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "SpecimenPlacement",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Specimen Placement"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/specimen-placement",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "access-request",
+    "title": "Access Request",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize access request and prepare the next review.",
+    "fields": [
+      {
+        "name": "requester",
+        "label": "Requester",
+        "type": "text"
+      },
+      {
+        "name": "institution",
+        "label": "Institution",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      },
+      {
+        "name": "requestedAt",
+        "label": "Requested at",
+        "type": "date"
+      },
+      {
+        "name": "protocolReference",
+        "label": "Protocol reference",
+        "type": "text"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "AccessRequest",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Access Request"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/access-request",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "specimen-access",
+    "title": "Specimen Access",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize specimen access and prepare the next review.",
+    "fields": [
+      {
+        "name": "accessRequestId",
+        "label": "Access request id",
+        "type": "text"
+      },
+      {
+        "name": "specimenId",
+        "label": "Specimen id",
+        "type": "text"
+      },
+      {
+        "name": "quantity",
+        "label": "Quantity",
+        "type": "number"
+      },
+      {
+        "name": "useDescription",
+        "label": "Use description",
+        "type": "textarea"
+      },
+      {
+        "name": "reviewNotes",
+        "label": "Review notes",
+        "type": "text"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "SpecimenAccess",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Specimen Access"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/specimen-access",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "material-agreement",
+    "title": "Material Agreement",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize material agreement and prepare the next review.",
+    "fields": [
+      {
+        "name": "accessRequestId",
+        "label": "Access request id",
+        "type": "text"
+      },
+      {
+        "name": "version",
+        "label": "Version",
+        "type": "text"
+      },
+      {
+        "name": "terms",
+        "label": "Terms",
+        "type": "textarea"
+      },
+      {
+        "name": "expiresAt",
+        "label": "Expires at",
+        "type": "date"
+      },
+      {
+        "name": "signatureEvidence",
+        "label": "Signature evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "MaterialAgreement",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Material Agreement"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/material-agreement",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "operational-task",
+    "title": "Operational Task",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize operational task and prepare the next review.",
+    "fields": [
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      },
+      {
+        "name": "startAt",
+        "label": "Start at",
+        "type": "date"
+      },
+      {
+        "name": "dueAt",
+        "label": "Due at",
+        "type": "date"
+      },
+      {
+        "name": "done",
+        "label": "Done",
+        "type": "select",
+        "options": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "OperationalTask",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operational Task"
+      },
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "OperationalTask",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operational Task"
+      },
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "OperationalTask",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operational Task"
+      },
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "OperationalTask",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operational Task"
+      },
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "OperationalTask",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operational Task"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/operational-task",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rule-version",
+    "title": "Rule Version",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize rule version and prepare the next review.",
+    "fields": [
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "version",
+        "label": "Version",
+        "type": "text"
+      },
+      {
+        "name": "effectiveAt",
+        "label": "Effective at",
+        "type": "date"
+      },
+      {
+        "name": "expiresAt",
+        "label": "Expires at",
+        "type": "date"
+      },
+      {
+        "name": "sourceUrl",
+        "label": "Source url",
+        "type": "text"
+      },
+      {
+        "name": "requirementText",
+        "label": "Requirement text",
+        "type": "textarea"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "RuleVersion",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Rule Version"
+      },
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "RuleVersion",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Rule Version"
+      },
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "RuleVersion",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Rule Version"
+      },
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "RuleVersion",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Rule Version"
+      },
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "RuleVersion",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Rule Version"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/rule-version",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "document-requirement",
+    "title": "Document Requirement",
+    "group": "Biobank consent and specimen access",
+    "description": "Organize document requirement and prepare the next review.",
+    "fields": [
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "requiredBy",
+        "label": "Required by",
+        "type": "date"
+      },
+      {
+        "name": "sourceReference",
+        "label": "Source reference",
+        "type": "text"
+      },
+      {
+        "name": "evidenceReference",
+        "label": "Evidence reference",
+        "type": "textarea"
+      },
+      {
+        "name": "reviewNotes",
+        "label": "Review notes",
+        "type": "text"
+      },
+      {
+        "name": "biobankCollectionId",
+        "label": "Biobank collection id",
+        "type": "text"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "DocumentRequirement",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Document Requirement"
+      },
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "DocumentRequirement",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Document Requirement"
+      },
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "DocumentRequirement",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Document Requirement"
+      },
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "DocumentRequirement",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Document Requirement"
+      },
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "DocumentRequirement",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Document Requirement"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/document-requirement",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "consent-restriction-extraction",
+    "title": "Consent restriction extraction",
+    "group": "Biobank consent and specimen access",
+    "description": "Consent restriction extraction using selected biobank collection records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "consent-restriction-extraction",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Consent restriction extraction"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/consent-restriction-extraction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "research-purpose-comparison",
+    "title": "Research purpose comparison",
+    "group": "Biobank consent and specimen access",
+    "description": "Research purpose comparison using selected biobank collection records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "research-purpose-comparison",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Research purpose comparison"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/research-purpose-comparison",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "access-packet-completeness",
+    "title": "Access packet completeness",
+    "group": "Biobank consent and specimen access",
+    "description": "Access packet completeness using selected biobank collection records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "access-packet-completeness",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Access packet completeness"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/access-packet-completeness",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "storage-discrepancy-summary",
+    "title": "Storage discrepancy summary",
+    "group": "Biobank consent and specimen access",
+    "description": "Storage discrepancy summary using selected biobank collection records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "storage-discrepancy-summary",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Storage discrepancy summary"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/storage-discrepancy-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "withdrawal-impact-draft",
+    "title": "Withdrawal impact draft",
+    "group": "Biobank consent and specimen access",
+    "description": "Withdrawal impact draft using selected biobank collection records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "withdrawal-impact-draft",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Withdrawal impact draft"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/withdrawal-impact-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "material-transfer-agreement-brief",
+    "title": "Material transfer agreement brief",
+    "group": "Biobank consent and specimen access",
+    "description": "Material transfer agreement brief using selected biobank collection records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "material-transfer-agreement-brief",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Material transfer agreement brief"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/material-transfer-agreement-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evidence-completeness-review",
+    "title": "Evidence completeness review",
+    "group": "Biobank consent and specimen access",
+    "description": "Evidence completeness review using selected biobank collection records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "evidence-completeness-review",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Evidence completeness review"
+      },
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "evidence-completeness-review",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Evidence completeness review"
+      },
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "evidence-completeness-review",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Evidence completeness review"
+      },
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "evidence-completeness-review",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Evidence completeness review"
+      },
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "evidence-completeness-review",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Evidence completeness review"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/evidence-completeness-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "operations-handoff-draft",
+    "title": "Operations handoff draft",
+    "group": "Biobank consent and specimen access",
+    "description": "Operations handoff draft using selected biobank collection records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-biobank-consent-and-specimen-access",
+        "path": "operations-handoff-draft",
+        "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operations handoff draft"
+      },
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "operations-handoff-draft",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operations handoff draft"
+      },
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "operations-handoff-draft",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operations handoff draft"
+      },
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "operations-handoff-draft",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operations handoff draft"
+      },
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "operations-handoff-draft",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Operations handoff draft"
+      }
+    ],
+    "owner": "ai-biobank-consent-and-specimen-access",
+    "alternatives": [],
+    "path": "/features/operations-handoff-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "milk-bank-program",
+    "title": "Milk Bank Program",
+    "group": "Donor milk bank traceability",
+    "description": "Organize milk bank program and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "facility",
+        "label": "Facility",
+        "type": "text"
+      },
+      {
+        "name": "licenseReference",
+        "label": "License reference",
+        "type": "text"
+      },
+      {
+        "name": "coordinator",
+        "label": "Coordinator",
+        "type": "text"
+      },
+      {
+        "name": "reportingStart",
+        "label": "Reporting start",
+        "type": "date"
+      },
+      {
+        "name": "reportingEnd",
+        "label": "Reporting end",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "MilkBankProgram",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Milk Bank Program"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/milk-bank-program",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "milk-donor",
+    "title": "Milk Donor",
+    "group": "Donor milk bank traceability",
+    "description": "Organize milk donor and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "donorCode",
+        "label": "Donor code",
+        "type": "text"
+      },
+      {
+        "name": "consentAt",
+        "label": "Consent at",
+        "type": "date"
+      },
+      {
+        "name": "screeningEvidence",
+        "label": "Screening evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "reviewDueAt",
+        "label": "Review due at",
+        "type": "date"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "MilkDonor",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Milk Donor"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/milk-donor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "milk-donation",
+    "title": "Milk Donation",
+    "group": "Donor milk bank traceability",
+    "description": "Organize milk donation and prepare the next review.",
+    "fields": [
+      {
+        "name": "milkDonorId",
+        "label": "Milk donor id",
+        "type": "text"
+      },
+      {
+        "name": "collectedAt",
+        "label": "Collected at",
+        "type": "date"
+      },
+      {
+        "name": "receivedAt",
+        "label": "Received at",
+        "type": "date"
+      },
+      {
+        "name": "volumeMl",
+        "label": "Volume ml",
+        "type": "number"
+      },
+      {
+        "name": "containerNumber",
+        "label": "Container number",
+        "type": "text"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "MilkDonation",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Milk Donation"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/milk-donation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "milk-pool",
+    "title": "Milk Pool",
+    "group": "Donor milk bank traceability",
+    "description": "Organize milk pool and prepare the next review.",
+    "fields": [
+      {
+        "name": "poolNumber",
+        "label": "Pool number",
+        "type": "text"
+      },
+      {
+        "name": "pooledAt",
+        "label": "Pooled at",
+        "type": "date"
+      },
+      {
+        "name": "volumeMl",
+        "label": "Volume ml",
+        "type": "number"
+      },
+      {
+        "name": "operator",
+        "label": "Operator",
+        "type": "text"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "MilkPool",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Milk Pool"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/milk-pool",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pool-contribution",
+    "title": "Pool Contribution",
+    "group": "Donor milk bank traceability",
+    "description": "Organize pool contribution and prepare the next review.",
+    "fields": [
+      {
+        "name": "milkDonationId",
+        "label": "Milk donation id",
+        "type": "text"
+      },
+      {
+        "name": "milkPoolId",
+        "label": "Milk pool id",
+        "type": "text"
+      },
+      {
+        "name": "volumeMl",
+        "label": "Volume ml",
+        "type": "number"
+      },
+      {
+        "name": "addedAt",
+        "label": "Added at",
+        "type": "date"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "PoolContribution",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Pool Contribution"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/pool-contribution",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pasteurization-run",
+    "title": "Pasteurization Run",
+    "group": "Donor milk bank traceability",
+    "description": "Organize pasteurization run and prepare the next review.",
+    "fields": [
+      {
+        "name": "milkPoolId",
+        "label": "Milk pool id",
+        "type": "text"
+      },
+      {
+        "name": "startedAt",
+        "label": "Started at",
+        "type": "date"
+      },
+      {
+        "name": "endedAt",
+        "label": "Ended at",
+        "type": "date"
+      },
+      {
+        "name": "equipment",
+        "label": "Equipment",
+        "type": "text"
+      },
+      {
+        "name": "cycleEvidence",
+        "label": "Cycle evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "PasteurizationRun",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Pasteurization Run"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/pasteurization-run",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "milk-lab-check",
+    "title": "Milk Lab Check",
+    "group": "Donor milk bank traceability",
+    "description": "Organize milk lab check and prepare the next review.",
+    "fields": [
+      {
+        "name": "milkPoolId",
+        "label": "Milk pool id",
+        "type": "text"
+      },
+      {
+        "name": "sampledAt",
+        "label": "Sampled at",
+        "type": "date"
+      },
+      {
+        "name": "laboratory",
+        "label": "Laboratory",
+        "type": "text"
+      },
+      {
+        "name": "testName",
+        "label": "Test name",
+        "type": "text"
+      },
+      {
+        "name": "resultText",
+        "label": "Result text",
+        "type": "textarea"
+      },
+      {
+        "name": "evidence",
+        "label": "Evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "MilkLabCheck",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Milk Lab Check"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/milk-lab-check",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "milk-distribution",
+    "title": "Milk Distribution",
+    "group": "Donor milk bank traceability",
+    "description": "Organize milk distribution and prepare the next review.",
+    "fields": [
+      {
+        "name": "milkPoolId",
+        "label": "Milk pool id",
+        "type": "text"
+      },
+      {
+        "name": "dispatchedAt",
+        "label": "Dispatched at",
+        "type": "date"
+      },
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "volumeMl",
+        "label": "Volume ml",
+        "type": "number"
+      },
+      {
+        "name": "receipt",
+        "label": "Receipt",
+        "type": "text"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "MilkDistribution",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Milk Distribution"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/milk-distribution",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "milk-recall",
+    "title": "Milk Recall",
+    "group": "Donor milk bank traceability",
+    "description": "Organize milk recall and prepare the next review.",
+    "fields": [
+      {
+        "name": "milkPoolId",
+        "label": "Milk pool id",
+        "type": "text"
+      },
+      {
+        "name": "initiatedAt",
+        "label": "Initiated at",
+        "type": "date"
+      },
+      {
+        "name": "reason",
+        "label": "Reason",
+        "type": "text"
+      },
+      {
+        "name": "coordinator",
+        "label": "Coordinator",
+        "type": "text"
+      },
+      {
+        "name": "responseEvidence",
+        "label": "Response evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "milkBankProgramId",
+        "label": "Milk bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "MilkRecall",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Milk Recall"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/milk-recall",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "donor-packet-completeness",
+    "title": "Donor packet completeness",
+    "group": "Donor milk bank traceability",
+    "description": "Donor packet completeness using selected milk bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "donor-packet-completeness",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Donor packet completeness"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/donor-packet-completeness",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "donation-intake-reconciliation",
+    "title": "Donation intake reconciliation",
+    "group": "Donor milk bank traceability",
+    "description": "Donation intake reconciliation using selected milk bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "donation-intake-reconciliation",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Donation intake reconciliation"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/donation-intake-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pool-traceability-review",
+    "title": "Pool traceability review",
+    "group": "Donor milk bank traceability",
+    "description": "Pool traceability review using selected milk bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "pool-traceability-review",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Pool traceability review"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/pool-traceability-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "processing-evidence-summary",
+    "title": "Processing evidence summary",
+    "group": "Donor milk bank traceability",
+    "description": "Processing evidence summary using selected milk bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "processing-evidence-summary",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Processing evidence summary"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/processing-evidence-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "distribution-exception-draft",
+    "title": "Distribution exception draft",
+    "group": "Donor milk bank traceability",
+    "description": "Distribution exception draft using selected milk bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "distribution-exception-draft",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Distribution exception draft"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/distribution-exception-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recall-drill-communication-draft",
+    "title": "Recall drill communication draft",
+    "group": "Donor milk bank traceability",
+    "description": "Recall drill communication draft using selected milk bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-donor-milk-bank-traceability",
+        "path": "recall-drill-communication-draft",
+        "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+        "kind": "definition",
+        "label": "Recall drill communication draft"
+      }
+    ],
+    "owner": "ai-donor-milk-bank-traceability",
+    "alternatives": [],
+    "path": "/features/recall-drill-communication-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "forensic-case",
+    "title": "Forensic Case",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Organize forensic case and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "caseNumber",
+        "label": "Case number",
+        "type": "text"
+      },
+      {
+        "name": "requestingAgency",
+        "label": "Requesting agency",
+        "type": "text"
+      },
+      {
+        "name": "caseOfficer",
+        "label": "Case officer",
+        "type": "text"
+      },
+      {
+        "name": "receivedAt",
+        "label": "Received at",
+        "type": "date"
+      },
+      {
+        "name": "disclosureDueAt",
+        "label": "Disclosure due at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "ForensicCase",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Forensic Case"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/forensic-case",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evidence-item",
+    "title": "Evidence Item",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Organize evidence item and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "itemNumber",
+        "label": "Item number",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "sealNumber",
+        "label": "Seal number",
+        "type": "text"
+      },
+      {
+        "name": "receivedAt",
+        "label": "Received at",
+        "type": "date"
+      },
+      {
+        "name": "storageLocation",
+        "label": "Storage location",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "EvidenceItem",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Evidence Item"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/evidence-item",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "custody-transfer",
+    "title": "Custody Transfer",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Organize custody transfer and prepare the next review.",
+    "fields": [
+      {
+        "name": "evidenceItemId",
+        "label": "Evidence item id",
+        "type": "textarea"
+      },
+      {
+        "name": "transferredAt",
+        "label": "Transferred at",
+        "type": "date"
+      },
+      {
+        "name": "fromCustodian",
+        "label": "From custodian",
+        "type": "text"
+      },
+      {
+        "name": "toCustodian",
+        "label": "To custodian",
+        "type": "text"
+      },
+      {
+        "name": "sealCondition",
+        "label": "Seal condition",
+        "type": "text"
+      },
+      {
+        "name": "receipt",
+        "label": "Receipt",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "CustodyTransfer",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Custody Transfer"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/custody-transfer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "examination-request",
+    "title": "Examination Request",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Organize examination request and prepare the next review.",
+    "fields": [
+      {
+        "name": "evidenceItemId",
+        "label": "Evidence item id",
+        "type": "textarea"
+      },
+      {
+        "name": "discipline",
+        "label": "Discipline",
+        "type": "text"
+      },
+      {
+        "name": "question",
+        "label": "Question",
+        "type": "textarea"
+      },
+      {
+        "name": "requestedAt",
+        "label": "Requested at",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "ExaminationRequest",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Examination Request"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/examination-request",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "lab-examination",
+    "title": "Lab Examination",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Organize lab examination and prepare the next review.",
+    "fields": [
+      {
+        "name": "examinationRequestId",
+        "label": "Examination request id",
+        "type": "text"
+      },
+      {
+        "name": "analyst",
+        "label": "Analyst",
+        "type": "text"
+      },
+      {
+        "name": "methodVersion",
+        "label": "Method version",
+        "type": "text"
+      },
+      {
+        "name": "performedAt",
+        "label": "Performed at",
+        "type": "date"
+      },
+      {
+        "name": "observations",
+        "label": "Observations",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "LabExamination",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Lab Examination"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/lab-examination",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "instrument-check",
+    "title": "Instrument Check",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Organize instrument check and prepare the next review.",
+    "fields": [
+      {
+        "name": "instrument",
+        "label": "Instrument",
+        "type": "text"
+      },
+      {
+        "name": "serialNumber",
+        "label": "Serial number",
+        "type": "text"
+      },
+      {
+        "name": "checkedAt",
+        "label": "Checked at",
+        "type": "date"
+      },
+      {
+        "name": "checkResult",
+        "label": "Check result",
+        "type": "text"
+      },
+      {
+        "name": "evidence",
+        "label": "Evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "InstrumentCheck",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Instrument Check"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/instrument-check",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "technical-review",
+    "title": "Technical Review",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Organize technical review and prepare the next review.",
+    "fields": [
+      {
+        "name": "labExaminationId",
+        "label": "Lab examination id",
+        "type": "text"
+      },
+      {
+        "name": "reviewer",
+        "label": "Reviewer",
+        "type": "text"
+      },
+      {
+        "name": "reviewedAt",
+        "label": "Reviewed at",
+        "type": "date"
+      },
+      {
+        "name": "findings",
+        "label": "Findings",
+        "type": "text"
+      },
+      {
+        "name": "resolution",
+        "label": "Resolution",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "TechnicalReview",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Technical Review"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/technical-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "disclosure-packet",
+    "title": "Disclosure Packet",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Organize disclosure packet and prepare the next review.",
+    "fields": [
+      {
+        "name": "preparedAt",
+        "label": "Prepared at",
+        "type": "date"
+      },
+      {
+        "name": "preparer",
+        "label": "Preparer",
+        "type": "text"
+      },
+      {
+        "name": "includedReferences",
+        "label": "Included references",
+        "type": "text"
+      },
+      {
+        "name": "exclusions",
+        "label": "Exclusions",
+        "type": "text"
+      },
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "DisclosurePacket",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Disclosure Packet"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/disclosure-packet",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evidence-disposition",
+    "title": "Evidence Disposition",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Organize evidence disposition and prepare the next review.",
+    "fields": [
+      {
+        "name": "evidenceItemId",
+        "label": "Evidence item id",
+        "type": "textarea"
+      },
+      {
+        "name": "dispositionAt",
+        "label": "Disposition at",
+        "type": "date"
+      },
+      {
+        "name": "authority",
+        "label": "Authority",
+        "type": "text"
+      },
+      {
+        "name": "action",
+        "label": "Action",
+        "type": "text"
+      },
+      {
+        "name": "receipt",
+        "label": "Receipt",
+        "type": "text"
+      },
+      {
+        "name": "forensicCaseId",
+        "label": "Forensic case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "EvidenceDisposition",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Evidence Disposition"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/evidence-disposition",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "custody-completeness-review",
+    "title": "Custody completeness review",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Custody completeness review using selected forensic case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "custody-completeness-review",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Custody completeness review"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/custody-completeness-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "examination-request-summary",
+    "title": "Examination request summary",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Examination request summary using selected forensic case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "examination-request-summary",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Examination request summary"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/examination-request-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "method-documentation-gap-check",
+    "title": "Method documentation gap check",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Method documentation gap check using selected forensic case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "method-documentation-gap-check",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Method documentation gap check"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/method-documentation-gap-check",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analyst-narrative-organization",
+    "title": "Analyst narrative organization",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Analyst narrative organization using selected forensic case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "analyst-narrative-organization",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Analyst narrative organization"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/analyst-narrative-organization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "technical-review-response-draft",
+    "title": "Technical review response draft",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Technical review response draft using selected forensic case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "technical-review-response-draft",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Technical review response draft"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/technical-review-response-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "disclosure-packet-index",
+    "title": "Disclosure packet index",
+    "group": "Forensic laboratory evidence operations",
+    "description": "Disclosure packet index using selected forensic case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-forensic-laboratory-evidence-operations",
+        "path": "disclosure-packet-index",
+        "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Disclosure packet index"
+      }
+    ],
+    "owner": "ai-forensic-laboratory-evidence-operations",
+    "alternatives": [],
+    "path": "/features/disclosure-packet-index",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "procurement-case",
+    "title": "Procurement Case",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Organize procurement case and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "caseNumber",
+        "label": "Case number",
+        "type": "text"
+      },
+      {
+        "name": "coordinator",
+        "label": "Coordinator",
+        "type": "text"
+      },
+      {
+        "name": "allocationAuthority",
+        "label": "Allocation authority",
+        "type": "text"
+      },
+      {
+        "name": "authorizationReference",
+        "label": "Authorization reference",
+        "type": "text"
+      },
+      {
+        "name": "openedAt",
+        "label": "Opened at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "ProcurementCase",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Procurement Case"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/procurement-case",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recovery-team",
+    "title": "Recovery Team",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Organize recovery team and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "lead",
+        "label": "Lead",
+        "type": "text"
+      },
+      {
+        "name": "contact",
+        "label": "Contact",
+        "type": "text"
+      },
+      {
+        "name": "availabilityAt",
+        "label": "Availability at",
+        "type": "date"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "RecoveryTeam",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Recovery Team"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/recovery-team",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "authorized-shipment",
+    "title": "Authorized Shipment",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Organize authorized shipment and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "shipmentNumber",
+        "label": "Shipment number",
+        "type": "text"
+      },
+      {
+        "name": "authorizationReference",
+        "label": "Authorization reference",
+        "type": "text"
+      },
+      {
+        "name": "recoveryAt",
+        "label": "Recovery at",
+        "type": "date"
+      },
+      {
+        "name": "destination",
+        "label": "Destination",
+        "type": "text"
+      },
+      {
+        "name": "deadlineAt",
+        "label": "Deadline at",
+        "type": "date"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "AuthorizedShipment",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Authorized Shipment"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/authorized-shipment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "container",
+    "title": "Container",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Organize container and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "containerNumber",
+        "label": "Container number",
+        "type": "text"
+      },
+      {
+        "name": "deviceNumber",
+        "label": "Device number",
+        "type": "text"
+      },
+      {
+        "name": "sealedAt",
+        "label": "Sealed at",
+        "type": "date"
+      },
+      {
+        "name": "sealReference",
+        "label": "Seal reference",
+        "type": "text"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "Container",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Container"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/container",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shipment-container",
+    "title": "Shipment Container",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Organize shipment container and prepare the next review.",
+    "fields": [
+      {
+        "name": "authorizedShipmentId",
+        "label": "Authorized shipment id",
+        "type": "text"
+      },
+      {
+        "name": "containerId",
+        "label": "Container id",
+        "type": "text"
+      },
+      {
+        "name": "packedAt",
+        "label": "Packed at",
+        "type": "date"
+      },
+      {
+        "name": "packer",
+        "label": "Packer",
+        "type": "text"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "ShipmentContainer",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Shipment Container"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/shipment-container",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "transport-leg",
+    "title": "Transport Leg",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Organize transport leg and prepare the next review.",
+    "fields": [
+      {
+        "name": "authorizedShipmentId",
+        "label": "Authorized shipment id",
+        "type": "text"
+      },
+      {
+        "name": "carrier",
+        "label": "Carrier",
+        "type": "text"
+      },
+      {
+        "name": "origin",
+        "label": "Origin",
+        "type": "text"
+      },
+      {
+        "name": "destination",
+        "label": "Destination",
+        "type": "text"
+      },
+      {
+        "name": "departureAt",
+        "label": "Departure at",
+        "type": "date"
+      },
+      {
+        "name": "arrivalAt",
+        "label": "Arrival at",
+        "type": "date"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "TransportLeg",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Transport Leg"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/transport-leg",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "telemetry-observation",
+    "title": "Telemetry Observation",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Organize telemetry observation and prepare the next review.",
+    "fields": [
+      {
+        "name": "containerId",
+        "label": "Container id",
+        "type": "text"
+      },
+      {
+        "name": "observedAt",
+        "label": "Observed at",
+        "type": "date"
+      },
+      {
+        "name": "temperatureC",
+        "label": "Temperature c",
+        "type": "number"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "source",
+        "label": "Source",
+        "type": "text"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "TelemetryObservation",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Telemetry Observation"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/telemetry-observation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "procurement-handoff",
+    "title": "Procurement Handoff",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Organize procurement handoff and prepare the next review.",
+    "fields": [
+      {
+        "name": "authorizedShipmentId",
+        "label": "Authorized shipment id",
+        "type": "text"
+      },
+      {
+        "name": "handedAt",
+        "label": "Handed at",
+        "type": "date"
+      },
+      {
+        "name": "sender",
+        "label": "Sender",
+        "type": "text"
+      },
+      {
+        "name": "receiver",
+        "label": "Receiver",
+        "type": "text"
+      },
+      {
+        "name": "receipt",
+        "label": "Receipt",
+        "type": "text"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "ProcurementHandoff",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Procurement Handoff"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/procurement-handoff",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "logistics-incident",
+    "title": "Logistics Incident",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Organize logistics incident and prepare the next review.",
+    "fields": [
+      {
+        "name": "authorizedShipmentId",
+        "label": "Authorized shipment id",
+        "type": "text"
+      },
+      {
+        "name": "occurredAt",
+        "label": "Occurred at",
+        "type": "date"
+      },
+      {
+        "name": "issue",
+        "label": "Issue",
+        "type": "text"
+      },
+      {
+        "name": "response",
+        "label": "Response",
+        "type": "text"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "procurementCaseId",
+        "label": "Procurement case id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "LogisticsIncident",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Logistics Incident"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/logistics-incident",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "authorized-logistics-brief",
+    "title": "Authorized logistics brief",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Authorized logistics brief using selected procurement case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "authorized-logistics-brief",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Authorized logistics brief"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/authorized-logistics-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "transport-conflict-review",
+    "title": "Transport conflict review",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Transport conflict review using selected procurement case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "transport-conflict-review",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Transport conflict review"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/transport-conflict-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "container-evidence-summary",
+    "title": "Container evidence summary",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Container evidence summary using selected procurement case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "container-evidence-summary",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Container evidence summary"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/container-evidence-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "handoff-chronology",
+    "title": "Handoff chronology",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Handoff chronology using selected procurement case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "handoff-chronology",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Handoff chronology"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/handoff-chronology",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "delay-escalation-draft",
+    "title": "Delay escalation draft",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Delay escalation draft using selected procurement case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "delay-escalation-draft",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Delay escalation draft"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/delay-escalation-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "case-closeout-narrative",
+    "title": "Case closeout narrative",
+    "group": "Organ procurement logistics coordinator",
+    "description": "Case closeout narrative using selected procurement case records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organ-procurement-logistics-coordinator",
+        "path": "case-closeout-narrative",
+        "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+        "kind": "definition",
+        "label": "Case closeout narrative"
+      }
+    ],
+    "owner": "ai-organ-procurement-logistics-coordinator",
+    "alternatives": [],
+    "path": "/features/case-closeout-narrative",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tissue-bank-program",
+    "title": "Tissue Bank Program",
+    "group": "Tissue and eye bank operations",
+    "description": "Organize tissue bank program and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "facility",
+        "label": "Facility",
+        "type": "text"
+      },
+      {
+        "name": "registrationNumber",
+        "label": "Registration number",
+        "type": "text"
+      },
+      {
+        "name": "coordinator",
+        "label": "Coordinator",
+        "type": "text"
+      },
+      {
+        "name": "reportingStart",
+        "label": "Reporting start",
+        "type": "date"
+      },
+      {
+        "name": "reportingEnd",
+        "label": "Reporting end",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "TissueBankProgram",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Tissue Bank Program"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/tissue-bank-program",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tissue-donor",
+    "title": "Tissue Donor",
+    "group": "Tissue and eye bank operations",
+    "description": "Organize tissue donor and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "donorCode",
+        "label": "Donor code",
+        "type": "text"
+      },
+      {
+        "name": "recoveredAt",
+        "label": "Recovered at",
+        "type": "date"
+      },
+      {
+        "name": "consentEvidence",
+        "label": "Consent evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "eligibilityEvidence",
+        "label": "Eligibility evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "TissueDonor",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Tissue Donor"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/tissue-donor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tissue-recovery",
+    "title": "Tissue Recovery",
+    "group": "Tissue and eye bank operations",
+    "description": "Organize tissue recovery and prepare the next review.",
+    "fields": [
+      {
+        "name": "tissueDonorId",
+        "label": "Tissue donor id",
+        "type": "text"
+      },
+      {
+        "name": "tissueType",
+        "label": "Tissue type",
+        "type": "text"
+      },
+      {
+        "name": "quantity",
+        "label": "Quantity",
+        "type": "number"
+      },
+      {
+        "name": "recoveredAt",
+        "label": "Recovered at",
+        "type": "date"
+      },
+      {
+        "name": "recoveryTeam",
+        "label": "Recovery team",
+        "type": "text"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "TissueRecovery",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Tissue Recovery"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/tissue-recovery",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tissue-lot",
+    "title": "Tissue Lot",
+    "group": "Tissue and eye bank operations",
+    "description": "Organize tissue lot and prepare the next review.",
+    "fields": [
+      {
+        "name": "tissueDonorId",
+        "label": "Tissue donor id",
+        "type": "text"
+      },
+      {
+        "name": "lotNumber",
+        "label": "Lot number",
+        "type": "text"
+      },
+      {
+        "name": "tissueType",
+        "label": "Tissue type",
+        "type": "text"
+      },
+      {
+        "name": "processedAt",
+        "label": "Processed at",
+        "type": "date"
+      },
+      {
+        "name": "storageLocation",
+        "label": "Storage location",
+        "type": "text"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "TissueLot",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Tissue Lot"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/tissue-lot",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tissue-processing",
+    "title": "Tissue Processing",
+    "group": "Tissue and eye bank operations",
+    "description": "Organize tissue processing and prepare the next review.",
+    "fields": [
+      {
+        "name": "tissueLotId",
+        "label": "Tissue lot id",
+        "type": "text"
+      },
+      {
+        "name": "processName",
+        "label": "Process name",
+        "type": "text"
+      },
+      {
+        "name": "performedAt",
+        "label": "Performed at",
+        "type": "date"
+      },
+      {
+        "name": "operator",
+        "label": "Operator",
+        "type": "text"
+      },
+      {
+        "name": "evidence",
+        "label": "Evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "TissueProcessing",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Tissue Processing"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/tissue-processing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tissue-test",
+    "title": "Tissue Test",
+    "group": "Tissue and eye bank operations",
+    "description": "Organize tissue test and prepare the next review.",
+    "fields": [
+      {
+        "name": "tissueLotId",
+        "label": "Tissue lot id",
+        "type": "text"
+      },
+      {
+        "name": "sampledAt",
+        "label": "Sampled at",
+        "type": "date"
+      },
+      {
+        "name": "testName",
+        "label": "Test name",
+        "type": "text"
+      },
+      {
+        "name": "resultText",
+        "label": "Result text",
+        "type": "textarea"
+      },
+      {
+        "name": "laboratory",
+        "label": "Laboratory",
+        "type": "text"
+      },
+      {
+        "name": "evidence",
+        "label": "Evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "TissueTest",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Tissue Test"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/tissue-test",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quarantine-review",
+    "title": "Quarantine Review",
+    "group": "Tissue and eye bank operations",
+    "description": "Organize quarantine review and prepare the next review.",
+    "fields": [
+      {
+        "name": "tissueLotId",
+        "label": "Tissue lot id",
+        "type": "text"
+      },
+      {
+        "name": "reviewedAt",
+        "label": "Reviewed at",
+        "type": "date"
+      },
+      {
+        "name": "reviewer",
+        "label": "Reviewer",
+        "type": "text"
+      },
+      {
+        "name": "disposition",
+        "label": "Disposition",
+        "type": "text"
+      },
+      {
+        "name": "rationale",
+        "label": "Rationale",
+        "type": "text"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "QuarantineReview",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Quarantine Review"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/quarantine-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tissue-distribution",
+    "title": "Tissue Distribution",
+    "group": "Tissue and eye bank operations",
+    "description": "Organize tissue distribution and prepare the next review.",
+    "fields": [
+      {
+        "name": "tissueLotId",
+        "label": "Tissue lot id",
+        "type": "text"
+      },
+      {
+        "name": "shippedAt",
+        "label": "Shipped at",
+        "type": "date"
+      },
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "quantity",
+        "label": "Quantity",
+        "type": "number"
+      },
+      {
+        "name": "receipt",
+        "label": "Receipt",
+        "type": "text"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "TissueDistribution",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Tissue Distribution"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/tissue-distribution",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tissue-adverse-event",
+    "title": "Tissue Adverse Event",
+    "group": "Tissue and eye bank operations",
+    "description": "Organize tissue adverse event and prepare the next review.",
+    "fields": [
+      {
+        "name": "tissueLotId",
+        "label": "Tissue lot id",
+        "type": "text"
+      },
+      {
+        "name": "observedAt",
+        "label": "Observed at",
+        "type": "date"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "investigator",
+        "label": "Investigator",
+        "type": "text"
+      },
+      {
+        "name": "response",
+        "label": "Response",
+        "type": "text"
+      },
+      {
+        "name": "tissueBankProgramId",
+        "label": "Tissue bank program id",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "TissueAdverseEvent",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Tissue Adverse Event"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/tissue-adverse-event",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "consent-record-extraction",
+    "title": "Consent record extraction",
+    "group": "Tissue and eye bank operations",
+    "description": "Consent record extraction using selected tissue bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "consent-record-extraction",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Consent record extraction"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/consent-record-extraction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eligibility-evidence-gaps",
+    "title": "Eligibility evidence gaps",
+    "group": "Tissue and eye bank operations",
+    "description": "Eligibility evidence gaps using selected tissue bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "eligibility-evidence-gaps",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Eligibility evidence gaps"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/eligibility-evidence-gaps",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "processing-packet-comparison",
+    "title": "Processing packet comparison",
+    "group": "Tissue and eye bank operations",
+    "description": "Processing packet comparison using selected tissue bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "processing-packet-comparison",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Processing packet comparison"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/processing-packet-comparison",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quarantine-review-preparation",
+    "title": "Quarantine review preparation",
+    "group": "Tissue and eye bank operations",
+    "description": "Quarantine review preparation using selected tissue bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "quarantine-review-preparation",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Quarantine review preparation"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/quarantine-review-preparation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "distribution-traceability-review",
+    "title": "Distribution traceability review",
+    "group": "Tissue and eye bank operations",
+    "description": "Distribution traceability review using selected tissue bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "distribution-traceability-review",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Distribution traceability review"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/distribution-traceability-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "adverse-event-chronology",
+    "title": "Adverse event chronology",
+    "group": "Tissue and eye bank operations",
+    "description": "Adverse event chronology using selected tissue bank program records and supplied evidence.",
+    "fields": [
+      {
+        "name": "objective",
+        "label": "Objective",
+        "type": "text"
+      },
+      {
+        "name": "sourceContext",
+        "label": "Source context",
+        "type": "textarea"
+      },
+      {
+        "name": "applicableRules",
+        "label": "Applicable rules",
+        "type": "text"
+      },
+      {
+        "name": "knownDiscrepancies",
+        "label": "Known discrepancies",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "requestedOutput",
+        "label": "Requested output",
+        "type": "text"
+      },
+      {
+        "name": "optionalReviewerNotes",
+        "label": "Optional reviewer notes",
+        "type": "text"
+      },
+      {
+        "name": "optionalAdditionalEvidence",
+        "label": "Optional additional evidence",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-tissue-and-eye-bank-operations",
+        "path": "adverse-event-chronology",
+        "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+        "kind": "definition",
+        "label": "Adverse event chronology"
+      }
+    ],
+    "owner": "ai-tissue-and-eye-bank-operations",
+    "alternatives": [],
+    "path": "/features/adverse-event-chronology",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "donors",
+    "title": "Donor Management",
+    "group": "Blood bank donation center",
+    "description": "Organize donor management and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/donors",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Donor Management"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/donors",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "donations",
+    "title": "Donation Scheduling",
+    "group": "Blood bank donation center",
+    "description": "Organize donation scheduling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/donations",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Donation Scheduling"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/donations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "screening",
+    "title": "Health Screening",
+    "group": "Blood bank donation center",
+    "description": "Organize health screening and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/screening",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Health Screening"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/screening",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deferrals",
+    "title": "Deferral Tracking",
+    "group": "Blood bank donation center",
+    "description": "Organize deferral tracking and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/deferrals",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Deferral Tracking"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/deferrals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "collections",
+    "title": "Blood Collection",
+    "group": "Blood bank donation center",
+    "description": "Organize blood collection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/collections",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Blood Collection"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/collections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bloodtyping",
+    "title": "Blood Typing & Testing",
+    "group": "Blood bank donation center",
+    "description": "Organize blood typing & testing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/bloodtyping",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Blood Typing & Testing"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/bloodtyping",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "components",
+    "title": "Component Processing",
+    "group": "Blood bank donation center",
+    "description": "Organize component processing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/components",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Component Processing"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/components",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory",
+    "title": "Inventory Management",
+    "group": "Blood bank donation center",
+    "description": "Organize inventory management and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/inventory",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Inventory Management"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "orders",
+    "title": "Hospital Orders",
+    "group": "Blood bank donation center",
+    "description": "Organize hospital orders and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/orders",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Hospital Orders"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/orders",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "transportation",
+    "title": "Transportation",
+    "group": "Blood bank donation center",
+    "description": "Organize transportation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/transportation",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Transportation"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/transportation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reactions",
+    "title": "Adverse Reactions",
+    "group": "Blood bank donation center",
+    "description": "Organize adverse reactions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/reactions",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Adverse Reactions"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/reactions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment",
+    "title": "Equipment Calibration",
+    "group": "Blood bank donation center",
+    "description": "Organize equipment calibration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/equipment",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Equipment Calibration"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/equipment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff",
+    "title": "Staff Certifications",
+    "group": "Blood bank donation center",
+    "description": "Organize staff certifications and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/staff",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Staff Certifications"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/staff",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "drives",
+    "title": "Mobile Drives",
+    "group": "Blood bank donation center",
+    "description": "Organize mobile drives and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/drives",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Mobile Drives"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/drives",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rewards",
+    "title": "Donor Rewards",
+    "group": "Blood bank donation center",
+    "description": "Organize donor rewards and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "/rewards",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Donor Rewards"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/rewards",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eligibility",
+    "title": "Eligibility",
+    "group": "Blood bank donation center",
+    "description": "Organize eligibility and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "ai/eligibility",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+        "kind": "route",
+        "label": "Eligibility"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/eligibility",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "expiration",
+    "title": "Expiration",
+    "group": "Blood bank donation center",
+    "description": "Organize expiration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "ai/expiration",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+        "kind": "route",
+        "label": "Expiration"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/expiration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "campaign",
+    "title": "Campaign",
+    "group": "Blood bank donation center",
+    "description": "Organize campaign and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "ai/campaign",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+        "kind": "route",
+        "label": "Campaign"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/campaign",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reengagement",
+    "title": "Reengagement",
+    "group": "Blood bank donation center",
+    "description": "Organize reengagement and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "ai/reengagement",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+        "kind": "route",
+        "label": "Reengagement"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/reengagement",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "forecast",
+    "title": "Forecast",
+    "group": "Blood bank donation center",
+    "description": "Organize forecast and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBloodBankDonationCenter",
+        "path": "ai/forecast",
+        "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+        "kind": "route",
+        "label": "Forecast"
+      }
+    ],
+    "owner": "AIBloodBankDonationCenter",
+    "alternatives": [],
+    "path": "/features/forecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

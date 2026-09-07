@@ -1,0 +1,9 @@
+{
+  "app": "lab-traceability-platform",
+  "features": 115,
+  "sourceApps": 7,
+  "calculatorEngines": 0,
+  "registryHash": "3f583fe42c5f5063c6c7e542b8fef7ece0cc47ce1db52510d9d921ebd407a88d",
+  "builtAt": "2026-09-07T22:05:32.214Z",
+  "status": "built"
+}

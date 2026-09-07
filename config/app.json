@@ -1,0 +1,29 @@
+{
+  "id": "lab-traceability-platform",
+  "title": "Laboratory, tissue & specimen operations",
+  "buyer": "Laboratory and biological-material operators",
+  "sourceCount": 7,
+  "sources": [
+    "ai-biobank-consent-and-specimen-access",
+    "ai-donor-milk-bank-traceability",
+    "ai-forensic-laboratory-evidence-operations",
+    "ai-organ-procurement-logistics-coordinator",
+    "ai-sterile-processing-instrument-traceability",
+    "ai-tissue-and-eye-bank-operations",
+    "AIBloodBankDonationCenter"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46012,
+  "productName": "Laboratory, tissue Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/ai-biobank-consent-and-specimen-access",
+    "/Volumes/external/projects/ai-donor-milk-bank-traceability",
+    "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations",
+    "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator",
+    "/Volumes/external/projects/ai-sterile-processing-instrument-traceability",
+    "/Volumes/external/projects/ai-tissue-and-eye-bank-operations",
+    "/Volumes/external/projects/AIBloodBankDonationCenter"
+  ]
+}

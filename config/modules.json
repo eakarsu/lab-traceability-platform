@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ai-biobank-consent-and-specimen-access",
+    "name": "Biobank consent and specimen access",
+    "sourceProject": "ai-biobank-consent-and-specimen-access",
+    "services": []
+  },
+  {
+    "id": "ai-donor-milk-bank-traceability",
+    "name": "Donor milk bank traceability",
+    "sourceProject": "ai-donor-milk-bank-traceability",
+    "services": []
+  },
+  {
+    "id": "ai-forensic-laboratory-evidence-operations",
+    "name": "Forensic laboratory evidence operations",
+    "sourceProject": "ai-forensic-laboratory-evidence-operations",
+    "services": []
+  },
+  {
+    "id": "ai-organ-procurement-logistics-coordinator",
+    "name": "Organ procurement logistics coordinator",
+    "sourceProject": "ai-organ-procurement-logistics-coordinator",
+    "services": []
+  },
+  {
+    "id": "ai-sterile-processing-instrument-traceability",
+    "name": "Sterile processing instrument traceability",
+    "sourceProject": "ai-sterile-processing-instrument-traceability",
+    "services": []
+  },
+  {
+    "id": "ai-tissue-and-eye-bank-operations",
+    "name": "Tissue and eye bank operations",
+    "sourceProject": "ai-tissue-and-eye-bank-operations",
+    "services": []
+  },
+  {
+    "id": "AIBloodBankDonationCenter",
+    "name": "Blood bank donation center",
+    "sourceProject": "AIBloodBankDonationCenter",
+    "services": []
+  }
+]

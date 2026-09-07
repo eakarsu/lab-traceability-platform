@@ -1,0 +1,1074 @@
+{
+  "mapped": [
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "BiobankCollection",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "biobank-collection",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "ResearchDonor",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "research-donor",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "ConsentVersion",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "consent-version",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "Specimen",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "specimen",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "FreezerLocation",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "freezer-location",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "SpecimenPlacement",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "specimen-placement",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "AccessRequest",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "access-request",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "SpecimenAccess",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "specimen-access",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "MaterialAgreement",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "material-agreement",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "OperationalTask",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "operational-task",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "RuleVersion",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "rule-version",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "DocumentRequirement",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "document-requirement",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "consent-restriction-extraction",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "consent-restriction-extraction",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "research-purpose-comparison",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "research-purpose-comparison",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "access-packet-completeness",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "access-packet-completeness",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "storage-discrepancy-summary",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "storage-discrepancy-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "withdrawal-impact-draft",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "withdrawal-impact-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "material-transfer-agreement-brief",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "material-transfer-agreement-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "evidence-completeness-review",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "evidence-completeness-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "sourceKey": "operations-handoff-draft",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "canonical": "operations-handoff-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "MilkBankProgram",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "milk-bank-program",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "MilkDonor",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "milk-donor",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "MilkDonation",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "milk-donation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "MilkPool",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "milk-pool",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "PoolContribution",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "pool-contribution",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "PasteurizationRun",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "pasteurization-run",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "MilkLabCheck",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "milk-lab-check",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "MilkDistribution",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "milk-distribution",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "MilkRecall",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "milk-recall",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "OperationalTask",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "operational-task",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "RuleVersion",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "rule-version",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "DocumentRequirement",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "document-requirement",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "donor-packet-completeness",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "donor-packet-completeness",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "donation-intake-reconciliation",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "donation-intake-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "pool-traceability-review",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "pool-traceability-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "processing-evidence-summary",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "processing-evidence-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "distribution-exception-draft",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "distribution-exception-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "recall-drill-communication-draft",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "recall-drill-communication-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "evidence-completeness-review",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "evidence-completeness-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "sourceKey": "operations-handoff-draft",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "canonical": "operations-handoff-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "ForensicCase",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "forensic-case",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "EvidenceItem",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "evidence-item",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "CustodyTransfer",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "custody-transfer",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "ExaminationRequest",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "examination-request",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "LabExamination",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "lab-examination",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "InstrumentCheck",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "instrument-check",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "TechnicalReview",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "technical-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "DisclosurePacket",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "disclosure-packet",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "EvidenceDisposition",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "evidence-disposition",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "OperationalTask",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "operational-task",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "RuleVersion",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "rule-version",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "DocumentRequirement",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "document-requirement",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "custody-completeness-review",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "custody-completeness-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "examination-request-summary",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "examination-request-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "method-documentation-gap-check",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "method-documentation-gap-check",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "analyst-narrative-organization",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "analyst-narrative-organization",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "technical-review-response-draft",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "technical-review-response-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "disclosure-packet-index",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "disclosure-packet-index",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "evidence-completeness-review",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "evidence-completeness-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "sourceKey": "operations-handoff-draft",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "canonical": "operations-handoff-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "ProcurementCase",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "procurement-case",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "RecoveryTeam",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "recovery-team",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "AuthorizedShipment",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "authorized-shipment",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "Container",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "container",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "ShipmentContainer",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "shipment-container",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "TransportLeg",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "transport-leg",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "TelemetryObservation",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "telemetry-observation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "ProcurementHandoff",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "procurement-handoff",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "LogisticsIncident",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "logistics-incident",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "OperationalTask",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "operational-task",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "RuleVersion",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "rule-version",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "DocumentRequirement",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "document-requirement",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "authorized-logistics-brief",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "authorized-logistics-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "transport-conflict-review",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "transport-conflict-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "container-evidence-summary",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "container-evidence-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "handoff-chronology",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "handoff-chronology",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "delay-escalation-draft",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "delay-escalation-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "case-closeout-narrative",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "case-closeout-narrative",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "evidence-completeness-review",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "evidence-completeness-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "sourceKey": "operations-handoff-draft",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "canonical": "operations-handoff-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-sterile-processing-instrument-traceability",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/ai-sterile-processing-instrument-traceability/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-sterile-processing-instrument-traceability",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-sterile-processing-instrument-traceability/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-sterile-processing-instrument-traceability",
+      "sourceKey": "integrations",
+      "source": "/Volumes/external/projects/ai-sterile-processing-instrument-traceability/frontend/src/App.jsx",
+      "canonical": "connections",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "TissueBankProgram",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "tissue-bank-program",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "TissueDonor",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "tissue-donor",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "TissueRecovery",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "tissue-recovery",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "TissueLot",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "tissue-lot",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "TissueProcessing",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "tissue-processing",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "TissueTest",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "tissue-test",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "QuarantineReview",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "quarantine-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "TissueDistribution",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "tissue-distribution",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "TissueAdverseEvent",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "tissue-adverse-event",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "OperationalTask",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "operational-task",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "RuleVersion",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "rule-version",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "DocumentRequirement",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "document-requirement",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "consent-record-extraction",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "consent-record-extraction",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "eligibility-evidence-gaps",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "eligibility-evidence-gaps",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "processing-packet-comparison",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "processing-packet-comparison",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "quarantine-review-preparation",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "quarantine-review-preparation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "distribution-traceability-review",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "distribution-traceability-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "adverse-event-chronology",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "adverse-event-chronology",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "evidence-completeness-review",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "evidence-completeness-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "sourceKey": "operations-handoff-draft",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "canonical": "operations-handoff-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/donors",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "donors",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/donations",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "donations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/screening",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "screening",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/deferrals",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "deferrals",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/collections",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "collections",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/bloodtyping",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "bloodtyping",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/components",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "components",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/inventory",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/orders",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "orders",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/transportation",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "transportation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/reactions",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "reactions",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/equipment",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "equipment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/staff",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "staff",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/drives",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "drives",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "/rewards",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter/frontend/src/pages/Dashboard.jsx",
+      "canonical": "rewards",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "ai/eligibility",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+      "canonical": "eligibility",
+      "kind": "route"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "ai/expiration",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+      "canonical": "expiration",
+      "kind": "route"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "ai/campaign",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+      "canonical": "campaign",
+      "kind": "route"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "ai/reengagement",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+      "canonical": "reengagement",
+      "kind": "route"
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "sourceKey": "ai/forecast",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+      "canonical": "forecast",
+      "kind": "route"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "key": "/registers",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "key": "/workflow",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "key": "/delivery",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-biobank-consent-and-specimen-access",
+      "key": "/operations",
+      "source": "/Volumes/external/projects/ai-biobank-consent-and-specimen-access/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "key": "/registers",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "key": "/workflow",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "key": "/delivery",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-donor-milk-bank-traceability",
+      "key": "/operations",
+      "source": "/Volumes/external/projects/ai-donor-milk-bank-traceability/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "key": "/registers",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "key": "/workflow",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "key": "/delivery",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-forensic-laboratory-evidence-operations",
+      "key": "/operations",
+      "source": "/Volumes/external/projects/ai-forensic-laboratory-evidence-operations/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "key": "/registers",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "key": "/workflow",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "key": "/delivery",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-organ-procurement-logistics-coordinator",
+      "key": "/operations",
+      "source": "/Volumes/external/projects/ai-organ-procurement-logistics-coordinator/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "key": "/registers",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "key": "/workflow",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "key": "/delivery",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-tissue-and-eye-bank-operations",
+      "key": "/operations",
+      "source": "/Volumes/external/projects/ai-tissue-and-eye-bank-operations/src/config/app.ts",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIBloodBankDonationCenter",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/donors/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/donations/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/screening/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/deferrals/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/collections/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/bloodtyping/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/components/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/inventory/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/orders/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/transportation/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/reactions/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/equipment/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/staff/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/drives/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBloodBankDonationCenter",
+      "key": "/rewards/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": []
+}
