@@ -1,0 +1,28 @@
+{
+  "insights": [
+    {
+      "id": "insight-specimen",
+      "feature": "specimen",
+      "title": "Specimen traceability insight",
+      "focus": "Summarize specimen records: totals, status mix, type/collection field coverage and recent specimens."
+    },
+    {
+      "id": "insight-consent-version",
+      "feature": "consent-version",
+      "title": "Consent version insight",
+      "focus": "Summarize consent version records: totals, status mix, permitted-use field coverage and recent versions."
+    },
+    {
+      "id": "insight-access-request",
+      "feature": "access-request",
+      "title": "Specimen access insight",
+      "focus": "Summarize specimen access-request records: totals, status mix, field coverage and recent requests."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
